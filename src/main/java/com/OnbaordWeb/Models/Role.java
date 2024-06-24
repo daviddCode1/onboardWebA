@@ -23,3 +23,4 @@ public class Role {
     @OneToMany(mappedBy = "role", cascade = CascadeType.ALL)
     private List<User> users;
 }
+////

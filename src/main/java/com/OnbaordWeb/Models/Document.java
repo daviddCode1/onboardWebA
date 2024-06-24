@@ -24,3 +24,4 @@ public class Document {
     @OneToMany(mappedBy = "document", cascade = CascadeType.ALL)
     private List<DocumentReading> documentReadings;
 }
+////

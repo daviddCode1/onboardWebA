@@ -38,7 +38,7 @@ public class UserController {
         }
     }
 
-    //find all users
+    //find all users/////
     @GetMapping("/all")
     public ResponseEntity<?> allUsers(){
         return ResponseEntity.ok(userServiceImpl.getAllUsers());

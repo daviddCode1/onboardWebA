@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @NoArgsConstructor
 public class Attempt {
-
+//////
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long attemptId;
