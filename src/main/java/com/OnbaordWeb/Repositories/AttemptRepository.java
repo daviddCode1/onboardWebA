@@ -20,3 +20,4 @@ public interface AttemptRepository extends JpaRepository<Attempt, Long> {
     //guery for get first 5 by score DESC
     List<Attempt> findFirst5ByOrderByScoreDesc();
 }
+///
